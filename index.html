@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <title>Carrocel de Imagem</title>
+    
+</head>
+<body>
+    <section class="items-fixed">
+        <div class="music">
+            <div class="player">
+                <div class="description">
+                    <h2>Fallen Down</h2>
+                    <i>Duncan Cox</i>
+                </div>
+                <i class="fa-solid fa-circle-play btn-play"></i>
+                <i class="fa-solid fa-circle-pause btn-pause"></i>
+                <button class="openPlayer"></button>
+                <div class="player-help">
+                    <i class="fa-solid fa-arrow-left-long" id="arrow-help"></i>
+                    <strong>DICA:</strong>
+                    <p>Você consegue escutar música enquanto navega pelo site.</p>
+                    <button>OK</button>
+                    <button id="fastPlayMusic">TOCAR</button>
+                </div>
+            </div>
+        
+            <audio class="music-bg" src="Fallen Down.mp3" loop></audio>
+
+            
+        </div>
+
+        <div class="cat">
+            <img class="cat-gif" src="cat-pixel.gif">
+            <audio class="meow-sound" src="Meow Sound Effect.mp3"></audio>
+            <div class="cat-help">
+                <strong>DICA:</strong>
+                <p>Você consegue tocar no gatinho clicando-no.</p>
+                <button>OK</button>
+                <i class="fa-solid fa-arrow-right-long" id="arrow-help-two"></i>
+            </div>
+        </div>
+    </section>
+
+    <header class="header-container" id="top">
+        <div class="header-wrapper">
+            <nav class="nav-items">
+                <ul>
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li class="help-button">
+                        <a href="#">AJUDA</a>
+                        <div class="help-box">
+                            <p>A vida não tem um sentido pré-definido, cada indivíduo deve buscar viver da melhor forma possível até a inevitável visita da morte...</p>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <a href="index.html"><img src="logo.jpg"></a>
+            </div>
+            <div class="present"><a href="thumb-1920-785576.png" download="nier-wallpaper1920x1080"><button>FREE <i class="fa-solid fa-gift"></i></button></a></div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <div class="caroucel">
+            <img src="img0.gif">
+            <img src="img1.jpg">
+            <img src="img2.jpg">
+            <img src="img3.jpg">
+            <img src="img4.jpg">
+            <img src="img5.jpg">
+            <img src="img6.jpg">
+            <img src="img7.jpg">
+            <img src="img8.jpg">
+        </div>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+
+    <section class="section1-container">
+        <div class="section1-wrapper container">
+            <div class="content1-l content">
+                <h2>About me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repudiandae architecto aliquid et eveniet doloribus expedita quod? Debitis assumenda odio quasi quo voluptas sed, hic nam asperiores maxime modi? Sed.</p>
+            </div>
+            <div class="content1-r">
+                <img src="vibe-gif0.gif">
+            </div>
+        </div>
+    </section>
+
+    <div class="section2-container">
+        <div class="section2-wrapper container">
+            <div class="content2-l">
+                <video id="video1" src="Calm snow falls on Sapporo. Shot on Sony A1 - a7s3. (Scenes adapted from my latest yt video.).mp4" muted autoplay loop></video>
+                <video id="video2" src="tsuguaki_abe-20230306-0001.mp4" muted autoplay loop></video>
+            </div>
+            <div class="content2-r content">
+                <h2>Japan</h2>
+                <p><span class="nihongo">日本ほどきれいな国はない! 日本の文化は本当に美しい。≧ｰ≦</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore harum nostrum fugiat iusto, inventore repudiandae atque tenetur aliquid quibusdam ea voluptate, quidem nesciunt quasi eius facilis et beatae ipsa velit?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section3-container">
+        <a href="#top"><i class="fa-solid fa-circle-chevron-up"></i></a>
+        <div class="section3-wrapper container">
+            <h1>Links</h1>
+            <div class="social-icons">
+                <a href="https://contate.me/yuuta-kinoshi" target="_blank"><i class="fa-brands fa-whatsapp" id="whats"></i></a>
+                <a href="https://www.instagram.com/yuuta_kinoshi/" target="_blank"><i class="fa-brands fa-instagram" id="insta"></i></a>
+                <a href="https://twitter.com/yuuta_kinoshi" target="_blank"><i class="fa-brands fa-twitter" id="twitter"></i></a>
+                <a href="https://www.youtube.com/@yuutakinoshi" target="_blank"><i class="fa-brands fa-youtube" id="yt"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-container">
+        <div class="footer-wrapper container">
+            <p>&copy; Yuuta Kinoshi | Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
